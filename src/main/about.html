@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>su-demos</title>
+    <link href="css/semantic.min.css" rel="stylesheet">
+    <link href="css/tagcloud.min.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src="js/siderbar.js"></script>
+    <script src="js/tagcloud.min.js"></script>
+    <script src="js/jquery.ui.widget.js" type="text/javascript"></script>
+    <script src="js/jquery.iframe-transport.js" type="text/javascript"></script>
+    <script src="js/common.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/plugins/laydate/laydate.js"></script>
+
+
+</head>
+
+<body class="pushable">
+<div class="ui fixed borderless inverted menu">
+    <div class="ui container">
+        <a href="/" class="header item">
+
+        </a>
+        <a href="admin/index.html" class="item"><i class="home icon"></i> 首页</a>
+        <a href="apply.html" class="item"><i class="list layout icon"></i> 申请管理</a>
+        <a href="authorize.html" class="item"><i class="list layout icon"></i> 授权管理</a>
+        <a href="effective.html" class="item"><i class="list layout icon"></i> 有效管理</a>
+        <div class="right item">
+            <div class="ui dropdown">
+                <a class="acctInfo"></a>
+                <!--<div class="text acctInfo"></div>-->
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <div class="item" data-value="modify-password">修改密码</div>
+                    <div class="item" data-value="quit">退出</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pusher">
+    <div class="ui large secondary borderless pointing menu"></div>
+
+    <div class="nav-divider"></div>
+
+    <div class="ui container" >
+
+        <div class="ui stackable grid">
+            <div class="three wide column">
+                <div class="ui vertical pointing  menu">
+                    <a class="item active teal right-item">关于小变态网络</a>
+                    <a class="item right-item">加入VIP会员</a>
+                    <a class="item right-item">会员积分规则</a>
+                    <a class="item right-item">联系客服</a>
+                    <a class="item right-item">关于站长</a>
+                </div>
+            </div>
+            <div class="thirteen wide column">
+                <div class="ui segment">
+                   <!-- <h2>关于小变态网络</h2>-->
+                    <h3 class="ui horizontal dividing header teal" style="text-align:center;">关于小变态网络 </h3>
+                    <p>
+                        TE网络 (TENET) 是一个致力于网络技术在线教育及技术分享的网站 ,  历时9个月的开发及维护， 网站于2017年4月正式上线运营 ,
+
+                        主要分为3个大分支  职业课程学习区  / 话题社区讨论区 /  资源下载区
+
+                        1. 职业课程学习区
+                        在线视频模块会提供大量的视频教程供本站会员学习交流，视频教程全部由本站讲师原创录制，希望小伙伴们能尊重讲师的努力，不要在网上随意散播讲师的成果
+                        目前主要会涉及到的方向为Java后端及WEB前端两大方向，后期也会招募更多的讲师开设更多的技术方向
+                        （因部分原因，暂时将在线视频功能修改为离线视频，会员只能将视频下载到本地后进行观看，在线学习功能开放时间待定）
+                        同时也提供了一个 技术问答模块，  如果各位在课程中有遇到什么不懂的问题或不能解决的错误都可以在这里提出来，  同时也希望大家能踊跃的帮助解答。
+
+                        2. TENET话题社区
+                        TE社区是提供给程序员交流聊天的地方， 不管是技术性的话题，还是生活、职场中的相关话题，都可以在这里畅言健谈，
+                        相信每一个话题都是咱们程序员会感兴趣的话题，希望小伙伴们能在这里畅淡！！！
+
+                        3. 网络资源下载
+                        站内资源由网站会员分享， 包含着有相关技术文档， 项目源代码， 工具软件，视频音频教程；
+                        因为资源来自于网络，本站并不保证资源的安全性的完整性，所以下载的资源需自行检测资源的安全，如果发现存在安全隐患或下载链接失效，希望能举报页面！
+                        资源下载实行积分制，部分资源需要向分享者支付金币才能下载，具体积分规则请 点击这里 浏览详细表格
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- footer -->
+    <div class="ui inverted vertical segment" style="height: 50px;text-align:center;">
+        <div style="text-align: center;color:white;"> Copyright © 2017 宁波科技信息研究院版权所有</div>
+    </div>
+
+
+
+</div>
+</body>
+
+<script>
+    $(function () {
+        $('.item').click(function () {
+            alert($('a.right-item').text());
+        })
+    })
+
+</script>
+</html>

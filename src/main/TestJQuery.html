@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="checkbox" id="checkAll" value="全选"/>
+<input type="button" id="cancelAll" value="反选"/>
+<hr/>
+
+<input type="checkbox" name="kk" value="sleep">睡觉</input>
+<input type="checkbox" name="kk" value="sport">运动</input>
+<input type="checkbox" name="kk" value="reading">读书</input>
+
+
+<script src="static/js/jquery-2.0.3.min.js"></script>
+<script text="text/javascript">
+    $(function(){
+
+        // 强调：jQuery选择器和js对象，完全是两回事
+        // 对于响应方法里，使用this，返回给你事件源的dom对象
+        $('#checkAll').click(function () {
+
+            alert(this.checked);// this是js对象，它遵循的是w3c的规则
+            alert($(this).checked);// $(this)是jQuery选择器，它遵循jQuery的规则，由于jQuery里没有checked，只有attr('checked')，因此会提示undefined
+            $("input[name='kk']").attr("checked",this.checked);
+
+        })
+        $('#cancelAll').click(function () {
+            $("input[name='kk']").each(function () {
+                // 这里的this表示当前对象
+               this.checked= !this.checked;
+
+                
+            });
+        })
+    })
+
+</script>
+</body>
+</html>

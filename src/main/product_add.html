@@ -1,0 +1,231 @@
+<!DOCTYPE html> <!-- html定义 -->
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"> <!-- 页面编码 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 在IE运行最新的渲染模式 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 初始化移动浏览器显示 -->
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- 载入Bootstrap的CSS样式 -->
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/bootstrap-dialog.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-treeview.css" rel="stylesheet"/>
+    <link href="js/plugins/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet"/>
+    <link href="css/summernote.css" rel="stylesheet"/>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <a class="navbar-brand" href="admin/index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a>
+            <ul class="nav navbar-nav navbar-list"></ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="javascript:void(0)" class="acctInfo hide"><span class="glyphicon glyphicon-user"></span>&nbsp;
+                </a></li>
+                <li><a href="javascript:void(0)" onclick="exit()">注销</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container main main-container">
+    <div class="row">
+        <div class="container breadcrumb-container ">
+            <ol class="breadcrumb"></ol>
+        </div>
+
+        <div class="emi-box">
+            <span class="emi-title">新增商品信息</span>
+            <div class="row">
+                <div class="col-md-6" style="text-align:left">带 * 为必填项</div>
+                <div class="col-md-6 text-align-right">
+                    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-th"></span> &nbsp;保存或修改
+                    </button>
+                </div>
+            </div>
+
+            <!-- 基本信息-->
+            <table class="table table-bordered margin-top-10">
+                <tr>
+                    <td class="emi-key"><span>*</span>商品类目:</td>
+                    <td>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-info select-product" data-toggle="modal"
+                                        data-target="#select-product">选择类目
+                                </button>
+                            </div>
+                            <div class="col-md-8" style="text-align: left"><input text="text"
+                                                                                  class="emi-input input-item-cat"
+                                                                                  placeholder="选择类目"/></div>
+                        </div>
+
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="emi-key"><span>*</span>商品标题:</td>
+                    <td><input type="text" class='emi-input' placeholder="请输入商品标"/></td>
+                </tr>
+                <tr>
+                    <td class="emi-key"><span>*</span>商品卖点:</td>
+                    <td><textarea class="form-control" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="emi-key"><span>*</span>商品价格:</td>
+                    <td><input type="text" class='emi-input' placeholder="请输入商品价格"/></td>
+                </tr>
+                <tr>
+                    <td class="emi-key"><span>*</span>库存数量:</td>
+                    <td><input type="text" class='emi-input' placeholder="请输入库存数量"/></td>
+                </tr>
+                <tr>
+                    <td class="emi-key"><span>*</span>条形码:</td>
+                    <td><input type="text" class='emi-input' placeholder="请输入条形码"/></td>
+                </tr>
+
+                <tr>
+                    <td class="emi-key"><span>*</span>文件上传:</td>
+                    <td><input id="file" name="file" type="file" multiple class="file-loading"></td>
+                </tr>
+                <tr>
+                    <td class="emi-key"><span>*</span>商品描述:</td>
+                    <td>
+                        <div id="editor"></div>
+                    </td>
+                </tr>
+
+            </table>
+
+
+        </div>
+    </div>
+
+
+    <div class="modal fade add-box sm-modal" id="select-product">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-primary"><h4 class="modal-title">添加账户</h4></div>
+                <div class="modal-body">
+                    <div id="tree" style="text-align: left"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary btn-save">添加</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container footer-container">
+    Copyright @2016-2017 宁波柯氏水果有限公司版权所有
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-dialog.min.js"></script>
+<script src="js/bootstrap-pagy.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/bootstrap-treeview.js"></script>
+<script src="js/fileinput.min.js"></script>
+<script src="js/summernote.min.js"></script>
+<script type="text/javascript">
+    var ids = [];
+    var names = [];
+
+    $(function () {
+        var moduleCode = '05001';
+        var curAcctName = "";
+        function initFun() {
+        };
+
+        $.findMenu(moduleCode, initFun);
+        $("#file").fileinput({
+            showUpload: true,
+            uploadAsync: true,
+            uploadLabel: '上传',
+            allowedFileExtensions: ['jpg', 'png', 'gif'],//接收的文件后缀
+            uploadClass: "btn btn-primary",
+            maxFileCount: 10,
+            mainClass: "input-group-lg",
+            uploadUrl: 'mgr/imageUpload',
+            enctype: 'multipart/form-data',
+            previewFileIcon: "<i class='glyphicon glyphicon-king'></i>"
+        });
+        $('#file').on('fileuploaded', function (event, data, previewId, index) {
+            var result = data.response;
+            if (typeof result != 'object') {
+                result = $.parseJSON(result);
+            }
+            Dialog.msg(result.body);
+
+        });
+
+        $('#editor').summernote({
+            height: 400,
+            minHeight: 300,
+            maxHeight: 500
+        });
+        ids.push(0);
+        names.push("根节点");
+        getChildNodes(ids, names);
+
+    });
+
+    function treeView(data) {
+        $('#tree').treeview({
+            data: data,
+            levels: 5,
+            emptyIcon: '',    //没有子节点的节点图标
+            multiSelect: false,    //单选
+            hierarchicalCheck: true,//父子联动
+            onNodeChecked: function (event, data) {
+                $('input.input-item-cat').val(data.text);
+                if (data.nodes != null) {
+                    var select_node = $('#tree').treeview('getSelected');
+                    if (select_node[0].state.expanded) {
+                        $('#tree').treeview('collapseNode', select_node);
+                        select_node[0].state.selected = false;
+                    }
+                    else {
+                        $('#tree').treeview('expandNode', select_node);
+                        select_node[0].state.selected = false;
+                    }
+                }
+            },
+            onNodeSelected: function (event, data) {
+                if (data.nodes != null) {
+                    var select_node = $('#tree').treeview('getSelected');
+                    // 折叠
+                    if (select_node[0].state.expanded) {
+
+                    } else {
+                        // 打开
+                        $('#tree').treeview('expandNode', select_node);
+                        select_node[0].state.selected = false;
+                        ids.push(select_node[0].id);
+                        getChildNodes(ids, select_node[0].text, 1);
+                    }
+                }
+            }
+        });
+    }
+
+    function getChildNodes(ids, names, flag) {
+        $.post('./item/cat/list', {
+            ids: ids,
+            names: names
+        }, function (data) {
+            treeView(data.body);
+        })
+    }
+
+</script>
+</body>
+
+</html>
