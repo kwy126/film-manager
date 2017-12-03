@@ -1,605 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea9bfcf9-b8e8-4ee8-a180-61bd860cde3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/TestJQuery.html" afterPath="$PROJECT_DIR$/src/main/webapp/TestJQuery.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/about.html" afterPath="$PROJECT_DIR$/src/main/webapp/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/add_film.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/add_film.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/film_list.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/film_list.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/income_film.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/income_film.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/link.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/link.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/system_account.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/system_account.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/system_role.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/system_role.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/admin/web_site_info.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/web_site_info.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/front.html" afterPath="$PROJECT_DIR$/src/main/webapp/front.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/homepage.html" afterPath="$PROJECT_DIR$/src/main/webapp/homepage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/product_add.html" afterPath="$PROJECT_DIR$/src/main/webapp/product_add.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/CHANGES.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/LICENSE.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/README.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/adapters/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/adapters/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/build-config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/ckeditor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/config.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/contents.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/contents.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/az.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/bn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/bs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/cy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/de-ch.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/de-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/en-au.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/en-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/eo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/es-mx.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/es-mx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/fo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/gu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ka.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ku.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/mk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/mn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/no.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/oc.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/oc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/sq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/sr-latn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/tt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/tt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/ug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/lang/zh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/colordialog/dialogs/colordialog.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/colordialog/dialogs/colordialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/copyformatting/cursors/cursor.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/copyformatting/cursors/cursor.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/copyformatting/styles/copyformatting.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/copyformatting/styles/copyformatting.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/div/dialogs/div.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/div/dialogs/div.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/find/dialogs/find.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/find/dialogs/find.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/flash/dialogs/flash.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/flash/dialogs/flash.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/flash/images/placeholder.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/flash/images/placeholder.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/button.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/button.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/checkbox.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/checkbox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/form.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/form.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/hiddenfield.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/radio.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/radio.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/select.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/select.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/textarea.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/textarea.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/dialogs/textfield.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/dialogs/textfield.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/forms/images/hiddenfield.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/forms/images/hiddenfield.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/icons.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/icons_hidpi.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/iframe/dialogs/iframe.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/iframe/dialogs/iframe.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/iframe/images/placeholder.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/iframe/images/placeholder.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/image/images/noimage.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/image/images/noimage.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/link/images/anchor.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/link/images/anchor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/link/images/hidpi/anchor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/liststyle/dialogs/liststyle.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/magicline/images/hidpi/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/magicline/images/icon-rtl.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/magicline/images/icon-rtl.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/magicline/images/icon.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/pagebreak/images/pagebreak.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/preview/preview.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/preview/preview.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/scayt/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/scayt/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/scayt/dialogs/dialog.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/scayt/dialogs/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/scayt/dialogs/options.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_address.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_address.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_blockquote.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_blockquote.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_div.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_div.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_h1.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_h1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_h2.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_h2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_h3.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_h3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_h4.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_h4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_h5.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_h5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_h6.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_h6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_p.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_p.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/showblocks/images/block_pre.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/showblocks/images/block_pre.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/dialogs/smiley.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/dialogs/smiley.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/angel_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/angel_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/angel_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/angel_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/angry_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/angry_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/angry_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/angry_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/broken_heart.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/broken_heart.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/broken_heart.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/broken_heart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/confused_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/confused_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/confused_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/confused_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/cry_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/cry_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/cry_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/cry_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/devil_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/devil_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/devil_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/devil_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/embaressed_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/embarrassed_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/embarrassed_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/embarrassed_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/embarrassed_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/envelope.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/envelope.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/envelope.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/envelope.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/heart.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/heart.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/heart.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/heart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/kiss.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/kiss.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/kiss.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/kiss.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/lightbulb.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/lightbulb.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/lightbulb.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/lightbulb.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/omg_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/omg_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/omg_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/omg_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/regular_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/regular_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/regular_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/regular_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/sad_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/sad_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/sad_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/sad_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/shades_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/shades_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/shades_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/shades_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/teeth_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/teeth_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/teeth_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/teeth_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/thumbs_down.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/thumbs_down.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/thumbs_down.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/thumbs_down.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/thumbs_up.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/thumbs_up.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/thumbs_up.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/thumbs_up.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/tongue_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/tongue_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/tongue_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/tongue_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/tounge_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/tounge_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/wink_smile.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/wink_smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/smiley/images/wink_smile.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/smiley/images/wink_smile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/oc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/tableselection/styles/tableselection.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/tableselection/styles/tableselection.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/templates/dialogs/templates.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/templates/dialogs/templates.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/templates/dialogs/templates.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/templates/dialogs/templates.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/templates/templates/default.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/templates/templates/default.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/templates/templates/images/template1.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/templates/templates/images/template1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/templates/templates/images/template2.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/templates/templates/images/template2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/templates/templates/images/template3.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/templates/templates/images/template3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/dialog.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/dialog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/dialog_ie.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/dialog_ie.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/dialog_ie8.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/dialog_ie8.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/dialog_iequirks.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/editor.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/editor.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/editor_gecko.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/editor_gecko.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/editor_ie.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/editor_ie.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/editor_ie8.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/editor_ie8.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/editor_iequirks.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/editor_iequirks.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/icons.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/icons_hidpi.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/plugins/icons_hidpi.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/arrow.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/close.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/hidpi/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/hidpi/lock.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/lock-open.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/lock-open.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/lock.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/lock.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/refresh.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/refresh.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/images/spinner.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/images/spinner.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/skins/moono-lisa/readme.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/skins/moono-lisa/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/ckeditor/styles.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/ckeditor/styles.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-datetimepicker.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/bootstrap-dialog.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-dialog.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/bootstrap-table.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-table.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/bootstrap-treeview.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-treeview.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/button.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/button.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/common.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/common.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/container.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/container.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/divider.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/divider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/dropdown.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/dropdown.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/fileinput.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/fileinput.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/grid.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/grid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/header.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/header.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/image.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/image.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/list.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/list.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/menu.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/menu.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/reset.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/segment.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/segment.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/semantic.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/semantic.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/sidebar.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/sidebar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/site.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/site.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/tagcloud.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/tagcloud.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/basic/assets/fonts/icons.eot" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/basic/assets/fonts/icons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/basic/assets/fonts/icons.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/basic/assets/fonts/icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/basic/assets/fonts/icons.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/basic/assets/fonts/icons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/basic/assets/fonts/icons.woff" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/basic/assets/fonts/icons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/default/assets/fonts/icons.eot" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/default/assets/fonts/icons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/default/assets/fonts/icons.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/default/assets/fonts/icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/default/assets/fonts/icons.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/default/assets/fonts/icons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/default/assets/fonts/icons.woff" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/default/assets/fonts/icons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/default/assets/fonts/icons.woff2" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/default/assets/fonts/icons.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/default/assets/images/flags.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/default/assets/images/flags.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/github/assets/fonts/octicons-local.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/github/assets/fonts/octicons-local.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/github/assets/fonts/octicons.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/github/assets/fonts/octicons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/github/assets/fonts/octicons.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/github/assets/fonts/octicons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/themes/github/assets/fonts/octicons.woff" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/themes/github/assets/fonts/octicons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/css/transition.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/transition.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/13602b28-8e0d-484c-9dda-3af15e87d32b.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/13602b28-8e0d-484c-9dda-3af15e87d32b.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/20ca9ac0-04d4-4a80-ba4f-40514b94348c.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/20ca9ac0-04d4-4a80-ba4f-40514b94348c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/2b048557-0e7e-4e8d-8c47-3e8a5482aa21.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/2b048557-0e7e-4e8d-8c47-3e8a5482aa21.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/316a3d42-5986-4864-a42f-de5ff929dd51.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/316a3d42-5986-4864-a42f-de5ff929dd51.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/466a9ad9-14f8-4986-9bc5-44874ceeff2e.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/466a9ad9-14f8-4986-9bc5-44874ceeff2e.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/4fb4b94e-6d8f-453f-83ae-081c3a398943.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/4fb4b94e-6d8f-453f-83ae-081c3a398943.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/54e89cbf-2433-45de-8ed9-eb87876f8e23.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/54e89cbf-2433-45de-8ed9-eb87876f8e23.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/70fc74d4-94a1-4861-82a1-be6f6fc34585.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/70fc74d4-94a1-4861-82a1-be6f6fc34585.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/75ab4034-1e7e-4457-a3aa-1017bc7f66fc.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/75ab4034-1e7e-4457-a3aa-1017bc7f66fc.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/81debb16-90e8-414b-9d4a-2be0cd0551fb.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/81debb16-90e8-414b-9d4a-2be0cd0551fb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/85361265-1896-440a-bc70-a411d42cf732.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/85361265-1896-440a-bc70-a411d42cf732.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/85de7574-8933-432b-b19a-e804913e0208.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/85de7574-8933-432b-b19a-e804913e0208.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/8c53a5f1-ee75-43e6-bc34-50621f2b7966.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/8c53a5f1-ee75-43e6-bc34-50621f2b7966.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/bb8b859f-20d7-4bd8-b418-a9fe3d2e6e0a.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/bb8b859f-20d7-4bd8-b418-a9fe3d2e6e0a.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/bdae80a9-64f7-4375-8823-9fde2ca122f3.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/bdae80a9-64f7-4375-8823-9fde2ca122f3.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/c4590b1a-6868-428b-a56c-4240d0e832ba.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/c4590b1a-6868-428b-a56c-4240d0e832ba.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/c6ac5efd-8625-40d3-9637-c2610ba9c728.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/c6ac5efd-8625-40d3-9637-c2610ba9c728.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/d790a4ae-b3bb-4ded-88a3-83abdda5779f.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/d790a4ae-b3bb-4ded-88a3-83abdda5779f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/d92441fc-a9cf-402e-ae57-920b53366130.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/d92441fc-a9cf-402e-ae57-920b53366130.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171114/dc9d41c2-7184-4fae-8d61-32c837603d8d.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171114/dc9d41c2-7184-4fae-8d61-32c837603d8d.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/137daa41-d261-444b-a51d-66d97d81d1a4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/137daa41-d261-444b-a51d-66d97d81d1a4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/16a902ac-e132-40bc-8b71-0e79a2138657.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/16a902ac-e132-40bc-8b71-0e79a2138657.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/2466f7b1-60ab-4e4f-a905-e9c6aedd7bd6.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/2466f7b1-60ab-4e4f-a905-e9c6aedd7bd6.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/2a4a722a-1b12-4a01-bb58-1c66322002a7.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/2a4a722a-1b12-4a01-bb58-1c66322002a7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/5b6f4d10-26d7-48b2-91df-87391909e3f2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/5b6f4d10-26d7-48b2-91df-87391909e3f2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/5b9a1af6-e5b9-44cf-8f04-f35def474e4a.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/5b9a1af6-e5b9-44cf-8f04-f35def474e4a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/5ca94f29-5af3-47b8-a4a4-a452747c1ed1.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/5ca94f29-5af3-47b8-a4a4-a452747c1ed1.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/d5b3f531-e017-44af-b2d5-2e0c9b17e845.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/d5b3f531-e017-44af-b2d5-2e0c9b17e845.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/e53d45a3-b39e-4f8d-b3a2-fce31d2cd780.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/e53d45a3-b39e-4f8d-b3a2-fce31d2cd780.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/20171115/f3ca27d3-941c-46aa-885e-064813293465.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/20171115/f3ca27d3-941c-46aa-885e-064813293465.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/MY_VIDEO_POSTER.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/MY_VIDEO_POSTER.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/control_01.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/control_01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/defaultphoto.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/defaultphoto.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/playheader.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/playheader.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/slide1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/slide1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/slide2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/slide2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/image/slide3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/slide3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-datetimepicker.fr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-datetimepicker.fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-datetimepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-datetimepicker.zh-CN.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-datetimepicker.zh-CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-dialog.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-dialog.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-pagy.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-pagy.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-table-export.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-table-zh-CN.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-table-zh-CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-table.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-treeview.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-treeview.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap-typeahead.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap-typeahead.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/Chart-1.0.1-beta.4.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/Chart-1.0.1-beta.4.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/chart.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/charts/Chart.Bar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/charts/Chart.Bar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/charts/Chart.Bubble.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/charts/Chart.Bubble.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/charts/Chart.Doughnut.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/charts/Chart.Doughnut.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/charts/Chart.Line.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/charts/Chart.Line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/charts/Chart.PolarArea.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/charts/Chart.PolarArea.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/charts/Chart.Radar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/charts/Chart.Radar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/charts/Chart.Scatter.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/charts/Chart.Scatter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/controllers/controller.bar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/controllers/controller.bar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/controllers/controller.bubble.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/controllers/controller.bubble.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/controllers/controller.doughnut.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/controllers/controller.doughnut.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/controllers/controller.line.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/controllers/controller.line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/controllers/controller.polarArea.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/controllers/controller.polarArea.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/controllers/controller.radar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/controllers/controller.radar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/controllers/controller.scatter.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/controllers/controller.scatter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.animation.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.animation.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.datasetController.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.datasetController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.defaults.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.defaults.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.element.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.element.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.helpers.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.helpers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.interaction.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.interaction.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.layoutService.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.layoutService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.plugin.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.plugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.scale.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.scale.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.scaleService.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.scaleService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.ticks.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.ticks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/core/core.tooltip.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/core/core.tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/elements/element.arc.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/elements/element.arc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/elements/element.line.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/elements/element.line.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/elements/element.point.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/elements/element.point.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/elements/element.rectangle.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/elements/element.rectangle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/elements/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/elements/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/helpers/helpers.canvas.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/helpers/helpers.canvas.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/helpers/helpers.core.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/helpers/helpers.core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/helpers/helpers.easing.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/helpers/helpers.easing.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/helpers/helpers.options.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/helpers/helpers.options.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/helpers/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/helpers/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/platforms/platform.basic.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/platforms/platform.basic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/platforms/platform.dom.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/platforms/platform.dom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/platforms/platform.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/platforms/platform.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/plugins/plugin.filler.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/plugins/plugin.filler.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/plugins/plugin.legend.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/plugins/plugin.legend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/plugins/plugin.title.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/plugins/plugin.title.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/scales/scale.category.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/scales/scale.category.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/scales/scale.linear.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/scales/scale.linear.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/scales/scale.linearbase.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/scales/scale.linearbase.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/scales/scale.logarithmic.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/scales/scale.logarithmic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/scales/scale.radialLinear.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/scales/scale.radialLinear.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/chart/scales/scale.time.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/chart/scales/scale.time.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/common.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/common.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/echarts.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/echarts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/fileinput.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/fileinput.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/jquery-2.0.3.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-2.0.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-3.2.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/jquery.fileupload.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.fileupload.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.iframe-transport.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.ui.widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/bootstrap-fileinput/img/loading-sm.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-fileinput/img/loading-sm.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/bootstrap-fileinput/img/loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-fileinput/img/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/file_manager_json.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/file_manager_json.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/kindeditor-min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/kindeditor-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/plugins/image/image.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/plugins/image/image.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/plugins/image/images/align_left.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/plugins/image/images/align_left.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/plugins/image/images/align_right.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/plugins/image/images/align_right.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/plugins/image/images/align_top.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/plugins/image/images/align_top.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/plugins/image/images/refresh.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/plugins/image/images/refresh.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/prettify.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/prettify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/common/anchor.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/common/anchor.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/common/blank.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/common/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/common/flash.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/common/flash.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/common/loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/common/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/common/media.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/common/media.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/common/rm.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/common/rm.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/default/background.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/default/background.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/default/default.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/default/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/themes/default/default.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/themes/default/default.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/upload_json.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/upload_json.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/kindeditor-4.1.10/zh_CN.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/kindeditor-4.1.10/zh_CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/laydate/laydate.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/laydate/laydate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/laydate/theme/default/font/iconfont.eot" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/laydate/theme/default/font/iconfont.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/laydate/theme/default/font/iconfont.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/laydate/theme/default/font/iconfont.woff" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/laydate/theme/default/laydate.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/laydate/theme/default/laydate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/WdatePicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/WdatePicker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/calendar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/lang/en.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/lang/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/lang/zh-cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/lang/zh-tw.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/lang/zh-tw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/skin/WdatePicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/skin/WdatePicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/skin/datePicker.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/skin/datePicker.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/skin/default/datepicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/skin/default/datepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/skin/default/img.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/skin/default/img.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/skin/whyGreen/bg.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/skin/whyGreen/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/skin/whyGreen/datepicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/skin/whyGreen/datepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/plugins/my97datepicker/skin/whyGreen/img.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/my97datepicker/skin/whyGreen/img.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/semantic.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/semantic.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/sidebar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/sidebar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/siderbar.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/siderbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/summernote.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/summernote.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/README.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/bower.json" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/FileSaver/FileSaver.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/FileSaver/FileSaver.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/FileSaver/LICENSE.md" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/FileSaver/LICENSE.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/html2canvas/LICENSE" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/html2canvas/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/html2canvas/html2canvas.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/html2canvas/html2canvas.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/js-xlsx/LICENSE" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/js-xlsx/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/js-xlsx/xlsx.core.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/js-xlsx/xlsx.core.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/jsPDF-AutoTable/LICENSE.txt" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/jsPDF-AutoTable/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/jsPDF/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/jsPDF/MIT-LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/libs/jsPDF/jspdf.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/libs/jsPDF/jspdf.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/package.json" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/tableExport.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/tableExport.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/tableExport.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/tableExport.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/bootstrap.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/bootstrap.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/Thumbs.db" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/csv.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/csv.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/json.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/json.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/pdf.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/pdf.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/png.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/png.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/sql.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/sql.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/txt.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/txt.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/word.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/word.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/xls.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/xls.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/icons/xml.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/icons/xml.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/massExcel.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/massExcel.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/multipleExcel.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/multipleExcel.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/sidebyside.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/sidebyside.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/singleExcel.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/singleExcel.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/test/tableExport.json" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/test/tableExport.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/tools/minify2.py" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/tools/minify2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tableExport/tools/minify3.py" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tableExport/tools/minify3.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/tagcloud.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tagcloud.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/transition.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/visibility.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/visibility.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/static/js/zh.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/zh.js" />
-    </list>
+    <list default="true" id="ea9bfcf9-b8e8-4ee8-a180-61bd860cde3a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -615,18 +17,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1111,50 +502,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512271584312</updated>
-      <workItem from="1512271587938" duration="205000" />
+      <workItem from="1512271587938" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205000" />
+    <option name="totallyTimeSpent" value="1727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19765624" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1320,14 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/add_film.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/film_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1372,6 +755,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/add_film.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="214" column="50" lean-forward="false" selection-start-line="214" selection-start-column="50" selection-end-line="214" selection-end-column="50" />
           <folding />
         </state>
       </provider>
