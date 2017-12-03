@@ -7,9 +7,9 @@
     <title>收录电影管理界面</title>
 
     <!-- Bootstrap -->
-    <link href="../static/css/bootstrap.css" rel="stylesheet"> <!-- 载入Bootstrap的CSS样式 -->
-    <link href="../static/css/bootstrap-dialog.min.css" rel="stylesheet"/>
-    <link href="../static/css/common.css" rel="stylesheet"/>
+    <link href="../webapp/static/css/bootstrap.css" rel="stylesheet"> <!-- 载入Bootstrap的CSS样式 -->
+    <link href="../webapp/static/css/bootstrap-dialog.min.css" rel="stylesheet"/>
+    <link href="../webapp/static/css/common.css" rel="stylesheet"/>
     <style>
         .img-height{
             height:160px;
@@ -29,7 +29,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a href=index.html>
-                <img alt="Brand" src="../static/image/logo.png" class="img-responsive img-circle" style="width:50px;height: 50px;">
+                <img alt="Brand" src="../webapp/static/image/logo.png" class="img-responsive img-circle" style="width:50px;height: 50px;">
             </a>
         </div>
         <div class="container">
@@ -67,8 +67,8 @@
 
         </div>
         <div class="col-md-6 text-align-right">
-            <button type="button" class="btn btn-primary add-btn" data-toggle="modal" data-target="#add-web-site_info"><span
-                    class="glyphicon glyphicon-plus"></span>&nbsp;新增动态信息
+            <button type="button" class="btn btn-primary add-btn" data-toggle="modal" data-target="#add-web-site"><span
+                    class="glyphicon glyphicon-plus"></span>&nbsp;新增链接
             </button>
         </div>
     </div>
@@ -76,11 +76,8 @@
     <table class="table table-bordered table-hover table-responsive" style="margin-top:20px;">
         <thead>
         <th style="width:10%;">编号</th>
-        <th style="width:10%;">电影名称</th>
-        <th style="width:10%;">网站名称</th>
-        <th style="width:20%;">具体地址</th>
-        <th style="width:20%;">动态信息</th>
-        <th style="width:10%;">发布时间</th>
+        <th style="width:20%;">电影网站名称</th>
+        <th style="width:50%;">电影网站地址</th>
         <th style="width:20%;">操作</th>
         </thead>
         <tbody class="tbody-list"></tbody>
@@ -93,37 +90,24 @@
 
 </div>
 
-<div class="modal fade add-box sm-modal" id="add-web-site_info">
+<div class="modal fade add-box sm-modal" id="add-web-site">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header modal-header-primary"><h4 class="modal-title">添加电影动态信息</h4></div>
+            <div class="modal-header modal-header-primary"><h4 class="modal-title">添加收录电影网址信息</h4></div>
             <div class="modal-body">
                 <form id="addForm" method="post" class="form-horizontal">
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">电影名称：</label>
+                        <label class="col-sm-3 control-label">电影网站名称：</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control filmName" data-provider="typeahead" maxlength="64" value=""/>
+                            <input type="text" class="form-control name" placeholder="链接名称" maxlength="64" value=""/>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">网站名称：</label>
+                        <label class="col-sm-3 control-label">电影网站地址：</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control margin-top-15 webSiteName"  maxlength="64" value=""/>
+                             <input type="text" class="form-control margin-top-15 url"  maxlength="64" value=""/>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">具体地址：</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control margin-top-15 url"  maxlength="64" value=""/>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">动态：</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control margin-top-15 info"  maxlength="64" value=""/>
-                        </div>
-                    </div>
-
                 </form>
 
             </div>
@@ -178,12 +162,11 @@
 <div class="container" style="text-align: center">
     Copyright @2016-2017 宁波柯氏水果有限公司版权所有
 </div>
-<script src="../static/js/jquery-2.0.3.min.js"></script>
-<script src="../static/js/bootstrap.min.js"></script>
-<script src="../static/js/bootstrap-dialog.min.js"></script>
-<script src="../static/js/bootstrap-pagy.min.js"></script>
-<script src="../static/js/bootstrap-typeahead.js"></script>
-<script src="../static/js/common.js"></script>
+<script src="../webapp/static/js/jquery-2.0.3.min.js"></script>
+<script src="../webapp/static/js/bootstrap.min.js"></script>
+<script src="../webapp/static/js/bootstrap-dialog.min.js"></script>
+<script src="../webapp/static/js/bootstrap-pagy.min.js"></script>
+<script src="../webapp/static/js/common.js"></script>
 <script type="text/javascript">
     var root= getRootPath();
     var id = '';
@@ -194,11 +177,13 @@
 
         $('[data-toggle="popover"]').popover();
 
+
+
         function initFun() {
             if (secure.find) {
                 //dialog = BootstrapDialog.loading();
-                demp.findWebSiteInfoList(1);
-                demp.findWebSiteInfoPage(1);
+                demp.findWebSiteList(1);
+                demp.findWebSitePage(1);
 
             }
             if (secure.add)
@@ -215,29 +200,16 @@
             demp.showAddBox();
         })
         $('button.btn-search').on('click', function () {
-            demp.findWebSiteInfoList(1);
-            demp.findWebSiteInfoPage(1);
+            demp.findWebSiteList(1);
+            demp.findWebSitePage(1);
         })
 
         $('button.btn-modify-save').click(function(){
             demp.update();
         })
 
-        demp.findWebSiteInfoList(1);
-        demp.findWebSiteInfoPage(1);
-
-        $.fn.typeahead.Constructor.prototype.blur = function() {
-            var that = this;
-            setTimeout(function () { that.hide() }, 250);
-        };
-
-        $('.filmName').typeahead({
-            source: function(query, process) {
-                $.post('',{query:query},function(){
-
-                });
-            }
-        });
+        demp.findWebSiteList(1);
+        demp.findWebSitePage(1);
 
 
     });
@@ -250,31 +222,26 @@
         },
         save: function () {
             $.verify = true;
-            var filmName = $.verifyForm('input.filmName');
-            var webSiteName = $.verifyForm('input.webSiteName');
+            var name = $.verifyForm('input.name');
             var url = $.verifyForm('input.url');
-            var info = $.verifyForm('input.info');
-
             if(!$.verify) return;
 
             var formData = new FormData($( "#addForm" )[0]);
-            formData.append("filmName", filmName);
-            formData.append("webSiteName", webSiteName);
+            formData.append("name", name);
             formData.append("url", url);
-            formData.append("info", info);
 
             $.ajax({
                 type: 'post',
-                url: root + '/admin/web_site_info/save',
+                url: root + '/admin/web_site/save',
                 data: formData,
                 contentType: false,
                 processData: false,
                 success: function (data) {
                     if(data.head) {
-                        $('#add-web-site_info').modal('hide');
+                        $('#add-web-site').modal('hide');
 
-                        demp.findWebSiteInfoList(1);
-                        demp.findWebSiteInfoPage(1);
+                        demp.findWebSiteList(1);
+                        demp.findWebSitePage(1);
 
                         new BootstrapDialog({
                             title: '系统提示',
@@ -307,7 +274,7 @@
 
             $.ajax({
                 type: 'post',
-                url: root + '/admin/web_site_info/update',
+                url: root + '/admin/web_site/update',
                 data: formData,
                 contentType: false,
                 processData: false,
@@ -315,8 +282,8 @@
                     if(data.head) {
                         $('#modify-web-site').modal('hide');
 
-                        demp.findWebSiteInfoList(1);
-                        demp.findWebSiteInfoPage(1);
+                        demp.findWebSiteList(1);
+                        demp.findWebSitePage(1);
 
                         new BootstrapDialog({
                             title: '系统提示',
@@ -334,10 +301,10 @@
             })
 
         },
-        findWebSiteInfoList: function (page) {
+        findWebSiteList: function (page) {
             var tbody = $('tbody.tbody-list').empty();
             var search = $('input.text-search').val();
-            $.post(root+'/admin/web_site_info/findWebSiteInfoList', {
+            $.post(root+'/admin/web_site/findWebSiteList', {
                 page: page,
                 search: search
 
@@ -350,21 +317,18 @@
                 $.each(data.body, function (index, value) {
                     $('<tr></tr>')
                         .append($("<td></td>").append(value.id))
-                        .append($("<td></td>").append(value.filmName))
-                        .append($("<td></td>").append(value.webSiteName))
-                        .append($("<td></td>").append(value.info))
+                        .append($("<td></td>").append(value.name))
                         .append($("<td></td>").append(value.url))
-                        .append($("<td></td>").append(value.createTime))
                         .append($("<td></td>").append(demp.getBtns(index, value)))
                         .appendTo(tbody);
                 });
             })
         },
-        findWebSiteInfoPage: function (page) {
+        findWebSitePage: function (page) {
 
             $("#pagination ul").empty();
             var search = $('input.text-search').val();
-            $.post(root+'/admin/web_site_info/findWebSiteInfoPage', {
+            $.post(root+'/admin/web_site/findWebSitePage', {
                 page: page,
                 search: search
 
@@ -375,23 +339,23 @@
                 }
                 data.body.nowPage = 1;
 
-                $.setPage(data.body, demp.findWebSiteInfoList);
+                $.setPage(data.body, demp.findWebSiteList);
             })
         },
         getBtns: function (index, value) {
             var btn = "";
             if(secure==null) return;
             //btn += secure.modify ? "<button type='button' class='btn btn-primary btn-xs'><span class='glyphicon glyphicon-pencil'></span>&nbsp;编辑</button>":"";
-            btn += secure.modify ? "<button type='button' class='btn btn-success btn-xs'  onclick='demp.webSiteInfoMgr(\"" + value.id + "\")'><span class='glyphicon glyphicon-star'></span>&nbsp;管理</button>":"";
+            btn += secure.modify ? "<button type='button' class='btn btn-success btn-xs'  onclick='demp.webSiteMgr(\"" + value.id + "\")'><span class='glyphicon glyphicon-star'></span>&nbsp;管理</button>":"";
             btn += "&nbsp;&nbsp;";
             btn += secure.del ?"<button type='button' class='btn btn-danger btn-xs' onclick='demp.hintDelete(\"" + value.id + "\")'><span class='glyphicon glyphicon-remove'></span>&nbsp;删除</button>":"";
             return btn;
         },
-        webSiteInfoMgr: function (id) {
+        webSiteMgr: function (id) {
             if (!id) return;
             var tbody = $('table.module-table').empty();
 
-            $.getJSON(root+'/admin/web_site_info/getWebSiteInfoById', {id: id}, function (data) {
+            $.getJSON(root+'/admin/web_site/getWebSiteById', {id: id}, function (data) {
 
                 if(data.head) {
 
@@ -409,11 +373,11 @@
             Dialog.confirm("请确定是否删除该记录?", function (result) {
                 if (!result) return;
                 dialog = Dialog.isSubmitted();
-                $.getJSON(root + '/admin/web_site_info/deleteWebSiteInfo', {id: id}, function (data) {
+                $.getJSON(root + '/admin/web_site/deleteWebSite', {id: id}, function (data) {
                     dialog.close();
                     if (!$.isSuccess(data)) return;
                     Dialog.msg(data.body, BootstrapDialog.TYPE_SUCCESS);
-                    demp.findWebSiteInfoList(1);
+                    demp.findWebSiteList(1);
                 });
             });
         }
