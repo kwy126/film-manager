@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.circle.dao.WebSiteInfoDAO">
+
+    <resultMap id="WebSiteInfoModel" type="com.circle.vo.WebSiteInfoModel">
+        <result column="id" property="id"/>
+        <result column="info" property="info"/>
+        <result column="url" property="url"/>
+        <result column="createTime" property="createTime"/>
+        <association property="film" javaType="com.circle.vo.FilmModel">
+            <id column="film_id" property="id"/>
+            <result column="name" property="name"/>
+            <result column="title" property="title"/>
+            <result column="content" property="content"/>
+            <result column="imageName" property="imageName"/>
+            <result column="isHot" property="isHot"/>
+            <result column="createTime" property="createTime"/>
+        </association>
+
+
+        <association property="webSiteModel" javaType="com.circle.vo.WebSiteModel">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+            <result column="url" property="url"/>
+        </association>
+    </resultMap>
+
+
+    <insert id="save" parameterType="WebSiteInfoModel">
+        insert into web_site_info(info,url,createTime)
+        values(#{info},#{url},#{createTime})
+    </insert>
+
+    <select id="findWebSiteInfoList" resultMap="WebSiteInfoModel">
+        select info.*,film.name as filmName,site.name as webSiteName from web_site_info info,film film,web_site site where info.film_id=film.id and info.web_site_id=site.id and info.info like CONCAT('%',#{0},'%') ORDER BY id DESC limit #{1},#{2}
+    </select>
+
+
+    <select id="findWebSiteInfoPage" resultType="int">
+        select count(*) from web_site_info info,film film,web_site site where info.film_id=film.id and info.web_site_id=site.id and info.info like CONCAT('%',#{0},'%')
+    </select>
+
+    <delete id="deleteWebInfoSite" parameterType="int">
+        delete from web_site_info where id =#{id}
+    </delete>
+
+    <select id="getWebSiteInfoById" resultMap="WebSiteInfoModel">
+        select * from web_site_info where id=#{id}
+    </select>
+
+    <update id="update" parameterType="WebSiteInfoModel">
+        update web_site_info set info=#{info} , url=#{url} where id=#{id}
+    </update>
+</mapper>

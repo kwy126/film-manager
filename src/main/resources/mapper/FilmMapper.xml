@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.circle.dao.FilmDAO">
+    <resultMap id="FilmModel" type="com.circle.vo.FilmModel">
+        <result column="name" property="name"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="imageName" property="imageName"/>
+        <result column="isHot" property="isHot"/>
+        <result column="createTime" property="createTime"/>
+    </resultMap>
+
+    <insert id="save" parameterType="FilmModel">
+        insert into film(name,title,content,imageName,isHot,createTime)
+        values(#{name},#{title},#{content},#{imageName},#{isHot},#{createTime})
+    </insert>
+
+
+    <select id="findFilmList" resultMap="FilmModel">
+        select * from film where name like CONCAT('%',#{0},'%') ORDER BY id DESC limit #{1},#{2}
+    </select>
+
+
+    <select id="findFilmPage" resultType="int">
+        select count(*) from film where name like CONCAT('%',#{0},'%')
+    </select>
+
+    <delete id="deleteFilm" parameterType="int">
+        delete from film where id =#{id}
+    </delete>
+
+    <select id="getFilmById" resultMap="FilmModel">
+        select * from film where id=#{id}
+    </select>
+
+    <update id="update" parameterType="FilmModel">
+        update film set name=#{name} , title=#{title} , content=#{content} , imageName=#{imageName} , isHot=#{isHot}  where id=#{id}
+    </update>
+
+</mapper>

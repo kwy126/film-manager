@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.circle.dao.WebSiteDAO">
+
+
+    <resultMap id="WebSiteModel" type="com.circle.vo.WebSiteModel">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="url" property="url"/>
+    </resultMap>
+
+
+    <insert id="save" parameterType="WebSiteModel">
+        insert into web_site(name,url)
+        values(#{name},#{url})
+    </insert>
+
+    <select id="findWebSiteList" resultMap="WebSiteModel">
+        select * from web_site where name like CONCAT('%',#{0},'%') ORDER BY id DESC limit #{1},#{2}
+    </select>
+
+
+    <select id="findWebSitePage" resultType="int">
+        select count(*) from web_site where name like CONCAT('%',#{0},'%')
+    </select>
+
+    <delete id="deleteWebSite" parameterType="int">
+        delete from web_site where id =#{id}
+    </delete>
+
+    <select id="getWebSiteById" resultMap="WebSiteModel">
+        select * from web_site where id=#{id}
+    </select>
+
+    <update id="update" parameterType="WebSiteModel">
+        update web_site set name=#{name} ,  url=#{url} where id=#{id}
+    </update>
+
+</mapper>
